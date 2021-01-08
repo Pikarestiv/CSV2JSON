@@ -1,0 +1,29 @@
+{
+  "name": "csv2json",
+  "version": "1.0.0",
+  "description": "An express API that converts a csv file from an external url into JSON after making sure the CSV file meets certain criteria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pikarestiv/CSV2JSON.git"
+  },
+  "keywords": [
+    "CSV",
+    "JSON",
+    "Javascript",
+    "JS",
+    "API",
+    "NodeJS",
+    "Express",
+    "CSV2JSON"
+  ],
+  "author": "Okwudili Joshua Odumodu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pikarestiv/CSV2JSON/issues"
+  },
+  "homepage": "https://github.com/Pikarestiv/CSV2JSON#readme"
+}
