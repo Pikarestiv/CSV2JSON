@@ -4,7 +4,10 @@
   "description": "An express API that converts a csv file from an external url into JSON after making sure the CSV file meets certain criteria",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
