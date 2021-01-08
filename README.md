@@ -19,6 +19,7 @@ iii. Ensures the JSON array contains the fields specified in the select_fields p
 2. Run npm install
 3. Run npm start
 4. Direct an API POST request to the API endpoint http://localhost:3000/api
+
     Payload of the POST call should be in the form: 
     
     {
