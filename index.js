@@ -20,7 +20,31 @@ app.get("/", (req, res) => {
 app.post("/api", (req,res) => {
   fetch(req.body.csv.url)
     .then(res => res.text())
-    .then((file) => {
-      console.log(file);
+    .then(file => {
+      const selFields = req.body.csv.select_fields;
+      let config = {
+        headers: [],
+        isHeaderNameOptional: false
+      };
+      
+      selFields.forEach(field => {
+        config.headers.push(
+          {
+            name: field,
+            inputName: field,
+            required: true
+          }
+        );
+      });
+
+      CSVFileValidator(file, config)
+        .then((csvData) => {
+          // console.log(csvData.inValidMessages);
+          res.send(csvData.data);
+        })
+        .catch((err) => {
+          // console.log(csvData.inValidMessages);
+          res.send(csvData.inValidMessages);
+        });
     })
 })
