@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/Pikarestiv/CSV2JSON/issues"
   },
-  "homepage": "https://github.com/Pikarestiv/CSV2JSON#readme"
+  "homepage": "https://github.com/Pikarestiv/CSV2JSON#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
