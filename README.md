@@ -1,4 +1,4 @@
-#CSV TO JSON CONVERTER
+# CSV TO JSON CONVERTER
 An express API endpoint route [HTTP POST] that accepts the following payload  
 {   
   csv:{     
@@ -11,7 +11,7 @@ i. Ensures the URL contains a valid CSV
 ii. Converts the CSV to a JSON array 
 iii. Ensures the JSON array contains the fields specified in the select_fields parameter.
 
-##Procedure to use app:
+## Procedure to use app:
 1. Clone the repository into your system.
 2. Run npm install
 3. Run npm start
@@ -25,7 +25,7 @@ iii. Ensures the JSON array contains the fields specified in the select_fields p
       }
     }
 
-##To Demo The API:
+## To Demo The API:
 Using POSTMAN or any other similar app, direct a POST call to the endpoint:
 https://csv2jsonconverter.glitch.me/api
 The Payload of the API call should be in the format in number 4 above.
