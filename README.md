@@ -9,9 +9,9 @@ An express API endpoint route [HTTP POST] that accepts the following payload
 }      
 
 and does the following:     
-
-i. Ensures the URL contains a valid CSV  
-ii. Converts the CSV to a JSON array 
+   
+i. Ensures the URL contains a valid CSV     
+ii. Converts the CSV to a JSON array    
 iii. Ensures the JSON array contains the fields specified in the select_fields parameter.
 
 ## Procedure to use app:
